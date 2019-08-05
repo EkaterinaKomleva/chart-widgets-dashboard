@@ -1,0 +1,12 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-5">
+      <select class="custom-select" #select (click)="parseParams(select)">
+        <option value="temperature" selected>Температура</option>
+        <option value="humidity">Влажность</option>
+        <option value="pressure">Давление</option>
+        <option value="wind">Ветер</option>
+      </select>
+    </div>
+  </div>
+</div>

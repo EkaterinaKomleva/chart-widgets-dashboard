@@ -1,0 +1,13 @@
+.top_bar {
+  background-color: #1c93bf;
+  height: 80px;
+}
+
+li {
+  background-color: #f2c53e;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #e0a800;
+}
